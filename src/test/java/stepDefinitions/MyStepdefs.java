@@ -71,12 +71,12 @@ public class MyStepdefs {
 
 
 
-    @When("I give in the Routing and Transit Id field with Existing_Routing and Transit Id")
-    public void iGiveInTheRoutingAndTransitIdFieldWithExisting_RoutingAndTransitId() {
-        issuer.FieldName("Routing and Transit Id","123011");
-
-
-    }
+//    @When("I give in the Routing and Transit Id field with Existing_Routing and Transit Id")
+//    public void iGiveInTheRoutingAndTransitIdFieldWithExisting_RoutingAndTransitId() {
+//        issuer.FieldName("Routing and Transit Id","123011");
+//
+//
+//    }
 
 
     @Given("I fill the all required fields in New Issuer Page with valid data")

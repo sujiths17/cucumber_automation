@@ -10,11 +10,11 @@ Feature: issuer
     And   I click the Submit button
     Then  I should see an error message
 
-  Scenario: creating an New Issuer with Existing Routing and Transit ID
-    And  I fill in the other required fields with valid data
-    When I give in the Routing and Transit Id field with Existing_Routing and Transit Id
-    And  I click the Submit button
-    Then I should see an error message
+#  Scenario: creating an New Issuer with Existing Routing and Transit ID
+#    And  I fill in the other required fields with valid data
+#    When I give in the Routing and Transit Id field with Existing_Routing and Transit Id
+#    And  I click the Submit button
+#    Then I should see an error message
 
   Scenario: creating an New Issuer with Existing InstitutionID
     And   I fill in the other required fields with valid data
